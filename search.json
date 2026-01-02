@@ -478,5 +478,49 @@
     "crumbs": [
       "Bibliography"
     ]
+  },
+  {
+    "objectID": "chapters/appendix_papers.html",
+    "href": "chapters/appendix_papers.html",
+    "title": "Appendix A — Papers",
+    "section": "",
+    "text": "A.1 Paper 1\nThis section contains the research papers that have stemmed from this PhD research work.\nDetails to be added",
+    "crumbs": [
+      "Appendices",
+      "<span class='chapter-number'>A</span>  <span class='chapter-title'>Papers</span>"
+    ]
+  },
+  {
+    "objectID": "chapters/appendix_papers.html#paper-2",
+    "href": "chapters/appendix_papers.html#paper-2",
+    "title": "Appendix A — Papers",
+    "section": "A.2 Paper 2",
+    "text": "A.2 Paper 2\nDetails to be added",
+    "crumbs": [
+      "Appendices",
+      "<span class='chapter-number'>A</span>  <span class='chapter-title'>Papers</span>"
+    ]
+  },
+  {
+    "objectID": "chapters/appendix_papers.html#paper-3",
+    "href": "chapters/appendix_papers.html#paper-3",
+    "title": "Appendix A — Papers",
+    "section": "A.3 Paper 3",
+    "text": "A.3 Paper 3\nDetails to be added",
+    "crumbs": [
+      "Appendices",
+      "<span class='chapter-number'>A</span>  <span class='chapter-title'>Papers</span>"
+    ]
+  },
+  {
+    "objectID": "chapters/appendix_papers.html#paper-4",
+    "href": "chapters/appendix_papers.html#paper-4",
+    "title": "Appendix A — Papers",
+    "section": "A.4 Paper 4",
+    "text": "A.4 Paper 4\nDetails to be added",
+    "crumbs": [
+      "Appendices",
+      "<span class='chapter-number'>A</span>  <span class='chapter-title'>Papers</span>"
+    ]
   }
 ]
