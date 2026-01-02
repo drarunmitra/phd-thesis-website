@@ -213,6 +213,32 @@ ul.task-list li input[type="checkbox"] {
 
 
 </main> <!-- /main -->
+<script>
+    document.addEventListener('DOMContentLoaded', function () {
+        // Count words in main content
+        const content = document.querySelector('#quarto-document-content');
+        if (content) {
+            const text = content.innerText || content.textContent;
+            const words = text.trim().split(/\s+/).filter(word => word.length > 0).length;
+
+            // Find the sidebar
+            const sidebar = document.querySelector('.sidebar-navigation');
+            if (sidebar) {
+                const wordCountDiv = document.createElement('div');
+                wordCountDiv.className = 'sidebar-wordcount';
+                wordCountDiv.innerHTML = `
+        <hr style="margin: 1rem 0.5rem; border-color: var(--bs-border-color, #dee2e6);">
+        <div style="padding: 0.5rem 1rem; font-size: 0.8rem; color: var(--bs-secondary, #6c757d);">
+          <span style="display: flex; align-items: center; gap: 0.3rem;">
+            📝 <strong>${words.toLocaleString()}</strong> words
+          </span>
+        </div>
+      `;
+                sidebar.appendChild(wordCountDiv);
+            }
+        }
+    });
+</script>
 <script id="quarto-html-after-body" type="application/javascript">
   window.document.addEventListener("DOMContentLoaded", function (event) {
     const icon = "";
